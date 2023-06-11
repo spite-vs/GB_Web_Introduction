@@ -1,5 +1,5 @@
 function greeting(name) {
-    alert(`Здравствуй, дорогой ${name}!`);
+    console.log(`Здравствуй, дорогой ${name}!`);
 }
-let n = prompt('Как Вас зовут? ');
-greeting(n);
+const username = prompt('Как Вас зовут? ');
+greeting(username);
